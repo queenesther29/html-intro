@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+ display: flex;
+ justify-content: center;
+
+ align-items: center;
+}
+
+
+#main{
+    display: flex;
+    margin: auto ;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 70vw;
+    border: 2px solid black;
+}
+
+#right{
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background:  url(./login_banner.jpg);
+}
+/* #left div span{
+    height: 50px;
+    background: green;
+    width: 10px;
+} */
+
+#left div div h1{
+    padding: 0;
+    margin: 0;
+    font-size: 1.5em;
+}
+#left{
+    width: 35vw;
+    padding-left: 2em;
+}
+#sped{
+    margin: 10px 0;
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#sped div{
+    display: flex;
+}
+#sped a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    width: 7vw;
+    height: 2.5em;
+}
+.but{
+    color: white;
+    background-color: green;
+}
+form{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+} 
+form h2{
+    color: rgb(11, 82, 11);
+ margin: 0;
+ padding: 0;
+ font-size: 2.5em;
+}
+form h5{
+    margin: 0;
+    padding: 0;
+    font-size: 0.6em;
+}
+#form input{
+    width: 20vw;
+    height: 1em;
+    padding-left: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 1em ;
+}
+#form label{
+    display: flex;
+    width: 10vw;
+    padding-left: 1em;
+    transform: translateY(1.4em);
+}
+
+#left div div p{
+    padding: 0;
+    margin: 0;
+    font-size: 0.6em;
+    font-weight: bold;
+}
+#right div span{
+  height: 50px;
+  background: white;
+  width: 10px;  
+}
+
+#right div div h1{
+    padding: 0;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+
+#right div div p{
+    padding: 0;
+    margin: 0;
+    font-size: 0.6em;
+    font-weight: bold;
+}
